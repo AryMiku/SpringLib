@@ -1,0 +1,21 @@
+PODS:
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: a1367b0a7e4ad9bb47ff0eba81f5306900971697
+
+COCOAPODS: 1.6.1
