@@ -39,23 +39,24 @@ class ViewController: UIViewController {
             SpringView4.animation = "fall"
             SpringView4.duration = 1.0
             SpringView4.animate()
-            data = 4
+            data = 0
         }
     }
     
     @IBAction func reset(_ sender: Any) {
-        SpringView.animation = "squeezeUp"
+        SpringView.animation = "squeezeDown"
         SpringView.duration = 1.0
         SpringView.animate()
-        SpringView2.animation = "squeezeUp"
+        SpringView2.animation = "squeezeLeft"
         SpringView2.duration = 1.0
         SpringView2.animate()
-        SpringView3.animation = "squeezeUp"
+        SpringView3.animation = "squeezeRight"
         SpringView3.duration = 1.0
         SpringView3.animate()
         SpringView4.animation = "squeezeUp"
         SpringView4.duration = 1.0
         SpringView4.animate()
+        
         
         
     }
